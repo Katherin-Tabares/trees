@@ -73,7 +73,7 @@ public class TreeDataStructure {
         Node n5 = new Node(3);
         Node n6 = new Node(9);
         Node n7 = new Node(10);
-        Node n9 = new Node(11);
+        Node n8 = new Node(11);
 
         // Constructing tree
         addChild(root, n2);
@@ -82,7 +82,7 @@ public class TreeDataStructure {
         addChild(n2, n5);
         addChild(n3, n6);
         addChild(n3, n7);
-        addChild(n6, n9);
+        addChild(n6, n8);
 
         System.out.println("Parents of each node:");
         printParents(root, null);
